@@ -1,6 +1,0 @@
-[symlinks]
-"config.fish" = "/home/takyon/.config/fish/config.fish"
-"helix.toml" = "/home/takyon/.config/helix/config.toml"
-"kitty.conf" = "/home/takyon/.config/kitty/kitty.conf"
-
-[templates]
