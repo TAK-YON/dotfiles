@@ -3,12 +3,19 @@
 [default]
 depends = []
 
+[default.variables]
+
 [default.files]
-"config.fish" = "~/.config/fish/config.fish"
 "helix.toml" = "~/.config/helix/config.toml"
 "kitty.conf" = "~/.config/kitty/kitty.conf"
 
-[default.variables]
+[fish.files]
+"fish/config.fish" = "~/.config/fish/config.fish"
+"fish/functions/" = "~/.config/fish/functions/"
+
+[mpv.files]
+"mpv/mpv.conf" = "~/.config/mpv/mpv.conf"
+"mpv/shaders" = "~/.config/mpv/shaders"
 
 [settings]
 default_target_type = "automatic"
